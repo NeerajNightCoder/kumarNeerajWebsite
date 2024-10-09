@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  scroll-behavior:smooth;
 }
 
 h1,
@@ -40,6 +41,12 @@ h3 {
   border-radius: 10px;
   color: #fff;
   font-weight: 700 !important;
+  cursor: pointer;
+}
+
+#cvbtn a{
+  text-decoration: none;
+  color: white;
 }
 
 #herosection {
@@ -47,14 +54,15 @@ h3 {
   color: #fff;
   font-size: 48px;
   font-weight: bold;
-  padding: 100px;
+  padding: 0 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  overflow: hidden;
 }
 
 #herosection img {
-  width: 500px;
+  width: 500px;filter: drop-shadow(5px 5px 10px rgba(255, 166, 0, 0.5));
 }
 
 .sectionheading {
@@ -89,6 +97,7 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   margin: 50px auto;
+  min-height: 50vh;
 }
 
 i {
