@@ -115,13 +115,6 @@ i {
   justify-content: space-around;
 }
 
-#projects div {
-  width: 30%;
-  border: 1px solid #ff506f;
-  font-size: 24px;
-  text-align: center;
-  overflow: hidden;
-}
 
 img,
 i {
@@ -150,4 +143,103 @@ ul {
   color: #aaa;
   font-size: x-large;
   margin: 10px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light background color */
+}
+.contact-section {
+  margin: 50px auto; /* Center the section */
+  padding: 20px; /* Padding */
+  background-color: #fff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sectionheading {
+  text-align: center; /* Center heading */
+  color: #4CAF50; /* Green heading */
+  margin-bottom: 20px; /* Space below heading */
+  font-size: 2em; /* Larger heading */
+}
+#contact {
+  max-width: 800px; /* Maximum width of the section */
+  padding: 10px 20px; /* Padding inside contact section */
+}
+ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+li {
+  margin: 15px 0; /* Margin between items */
+  padding: 10px; /* Padding inside list items */
+  background-color: #e7f4e4; /* Light green background */
+  border-left: 5px solid #4CAF50; /* Left border */
+  border-radius: 5px; /* Rounded corners */
+  display: flex; /* Flexbox for icon and text alignment */
+  align-items: center; /* Center vertically */
+}
+li i {
+  margin-right: 10px; /* Space between icon and text */
+  color: #4CAF50; /* Icon color */
+  font-size: 1.5em; /* Icon size */
+}
+a {
+  text-decoration: none; /* Remove underline */
+  color: #4CAF50; /* Link color */
+  transition: color 0.3s; /* Smooth transition */
+}
+a:hover {
+  color: #2e7d32; /* Darker green on hover */
+}
+
+.projects-section {
+  /* max-width: 800px; Maximum width of the section */
+  margin: 50px auto; /* Center the section */
+  padding: 20px; /* Padding */
+  background-color: #fff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.sectionheading {
+  text-align: center; /* Center heading */
+  color: #4CAF50; /* Green heading */
+  margin-bottom: 20px; /* Space below heading */
+  font-size: 2em; /* Larger heading */
+}
+#projects {
+  
+  display: flex; 
+  width: 100%;/* Use grid layout */
+  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); Responsive columns */
+  /* gap: 20px; Space between grid items */
+}
+.project-item {
+  background-color: #e7f4e4; /* Light green background */
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Hide overflow */
+  transition: transform 0.3s; /* Smooth transition */
+  text-align: center; /* Center text */
+  width: 30%;
+  background-color: orange;
+  height: fit-content;
+}
+.project-item:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+.project-item img {
+  width: 100%; /* Full width */
+  /* height: auto; Maintain aspect ratio */
+}
+.project-title {
+  padding: 15px; /*Padding for title*/
+  color: #333; /* Dark text for titles */
+  font-size: 1.2em; /* Larger title text */
+  margin: 0; /* Remove default margin */
 }
