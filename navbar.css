@@ -288,6 +288,7 @@ h2 {
   background-color: #ff506f; /* Light green background */
   border-left: 5px solid #ff506f; /* Left border */
   border-radius: 5px; /* Rounded corners */
+  width: 200px;
 }
 .education-item h3 {
   margin: 0; /* Remove default margin */
