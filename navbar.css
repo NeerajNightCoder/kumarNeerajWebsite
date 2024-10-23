@@ -318,3 +318,11 @@ h2 {
   display: flex;
   justify-content: center;
 }
+
+.footer-copywright{
+  background-color: #111;
+  color: #ff506f;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 5px;
+}
